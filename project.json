@@ -1,0 +1,12 @@
+{
+  "name": "lambda-fallback-queueing-pattern",
+  "description": "lambda fallback queueing pattern",
+  "memory": 128,
+  "timeout": 5,
+  "runtime": "python",
+  "defaultEnvironment": "dev",
+  "environment": {
+    "QueueUrl": "",
+    "TableName": ""
+  }
+}
